@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/CBAgro.css">
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+  <title>Categories</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand letra" href="../EA/Principal.html"><img src="../img/sena.jpg" alt="" width="60" height="60"><img src="../img/logo.jpeg" alt="" width="110" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link letra" aria-current="page" href="../EN/Principal.html"><h4>Start</h4></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link letra" href="../EN/Secciones.html" role="button"
+                aria-expanded="false">
+                <h4>Section</h4>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link letra" href="../EN/Categorias.html" role="button"
+                aria-expanded="false">
+                <h4>Category</h4>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link letra" href="../EN/Exposiciones.html" role="button"
+                aria-expanded="false">
+                <h4>Exposition</h4>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link letra" aria-current="page" href="../EN/Galeria.html">
+                <h4>Gallery</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../EN/Ubicacion.html">
+                <img src="../img/ubicacion.png" alt="" width="30" height="30">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="../EA/Categorias.html">
+                <img src="../img/eeuu.jpg" alt="" width="30" height="30">
+                EN
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><br><br><br><br>
+    <div class="fade-in">
+      <div class="row text-center" style="margin-top: 30px;">
+        <div class="col-12">
+          <div class="row">
+            <div class="card col-4">
+              <div class="card-body">
+                <img src="../img/apicultura1.jpg" class="img-fluid" class="card-img-top">
+                <h5 class="card-title">Beekeeping</h5>
+                <p class="card-text">In this sector, honeycombs are stored for the extraction of honey, those who are in charge of this work must wear special clothing to protect themselves from the bees, they also extract the honey and can avoid bee stings.</p>
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#Apicultura">
+                    More Info
+                </button>
+                <div class="modal fade" id="Apicultura" tabindex="-1" aria-labelledby="Apicultura" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="Apicultura">Beekeeping</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                          aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="CarruselApicultura" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#CarruselApicultura" data-bs-slide-to="0" class="active"
+                              aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#CarruselApicultura" data-bs-slide-to="1"
+                              aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#CarruselApicultura" data-bs-slide-to="2"
+                              aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <img src="../img/apicultura1.jpg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="../img/apicultura2.jpg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../img/apicultura3.jpeg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#CarruselApicultura" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#CarruselApicultura" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div>
+                          <p class="text">descripcion <br> In this sector, honeycombs are stored for the extraction of honey, those who are in charge of this work must wear special clothing for their protection from the bees, they also extract the honey and can avoid bee stings. In addition, not only can honey be extracted from bees, but also jellies, pollen, and other products that we consume today and that can be medicinal for us.
+                            There are three types of bees that are: the queen bee responsible for laying eggs, the worker bees that collect nectar and finally the drones which fertilize the queen bee.</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-success"
+                              data-bs-dismiss="modal">Accept</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-4">
+              <div class="card-body">
+                <img src="../img/conejo1.jpeg" class="img-fluid" class="card-img-top">
+                <h5 class="card-title">Minor Species</h5>
+                <p class="card-text">In the Sena there are several minor species, including rabbits, chickens, among others. The rabbits are cared for by several people and they are kept in cages so that they do not escape, on the other hand the hens are kept in a pen where they extract eggs for human consumption.</p>
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#Especies">
+                    More Info
+                </button>
+                <div class="modal fade" id="Especies" tabindex="-1" aria-labelledby="Especies" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="Especies">Minor Species</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                          aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="CarruselEspecies" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#CarruselEspecies" data-bs-slide-to="0" class="active"
+                              aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#CarruselEspecies" data-bs-slide-to="1"
+                              aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#CarruselEspecies" data-bs-slide-to="2"
+                              aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <img src="../img/conejo1.jpeg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="../img/gallina1.jpeg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../img/conejo1.jpeg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#CarruselEspecies" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#CarruselEspecies" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div>
+                          <p class="text">descripcion <br> 
+                            In the Sena there are several minor species, including rabbits, chickens, among others. The rabbits are cared for by several people and are kept in cages so they don't escape. Rabbit farming also uses the meat and skin of these animals so that it can be sold to other people who are interested in these animals. On the other hand the hens are raised that on the other hand the hens keep them in a pen where they extract eggs for human consumption.</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-success"
+                              data-bs-dismiss="modal">Accept</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-4">
+              <div class="card-body">
+                <img src="../img/ganaderia1.jpeg" class="img-fluid" class="card-img-top">
+                <h5 class="card-title">Cattle Raising</h5>
+                <p class="card-text">The cattle ranch has large fields with many hectares where the cows can be fed and can have space so that they are not so stressed, they are also milked and the milk is sold, mainly this milk is sold by colanta and is totally natural without chemical additives.</p>
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#Ganaderia">
+                    More Info
+                </button>
+                <div class="modal fade" id="Ganaderia" tabindex="-1" aria-labelledby="Ganaderia" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="Ganaderia">Cattle Raising</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                          aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="CarruselGanaderia" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#CarruselGanaderia" data-bs-slide-to="0" class="active"
+                              aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#CarruselGanaderia" data-bs-slide-to="1"
+                              aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#CarruselGanaderia" data-bs-slide-to="2"
+                              aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <img src="../img/ganaderia1.jpeg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="../img/ganaderia2.jpeg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../img/ganaderia3.jpeg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#CarruselGanaderia" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#CarruselGanaderia" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div>
+                          <p class="text">descripcion <br> The cattle ranch has large fields with many hectares where the cows can be fed and can have space so that they are not so stressed, they are also milked and the milk is sold, mainly this milk is sold by colanta and is totally natural without chemical additives.</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-success"
+                              data-bs-dismiss="modal">Accept</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+ 
+    <div class="row footer text-center" style="background-color: orange;margin-top: 30px;">
+      <div class="col-4 d-none d-md-block">
+        <h5>Legal Warning</h5><br>
+        <h5>Privacy Policy</h5><br>
+        <h5>Cookie Policy</h5><br>
+        <h5>Quality Politics</h5>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="row">
+          <p class="col-4"></p>
+          <img src="../img/sena.jpg" class="col-4" alt="">
+          <p class="col-4"></p>
+        </div>
+        <div class="row">
+          <a href="https://twitter.com/SENAComunica" style="text-decoration: none; color: black;" class="col-4 drop_social" target="_blank">
+            <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/SENA" style="text-decoration: none; color: black;" class="col-4 drop_social" target="_blank">
+            <i class="bx bxl-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/senacomunica/" style="text-decoration: none; color: black;" class="col-4 drop_social" target="_blank">
+            <i class="bx bxl-instagram-alt"></i>
+        </a>
+        </div>
+        <div class="row">
+          <p class="col-12">Copyright © 2022 All rights Reserved ADSO</p>
+        </div>
+      </div>
+      <div class="col-4 d-none d-md-block">
+        <h5>SENagro</h5><br>
+        <h5>Blog</h5><br>
+        <h5>Contacts</h5><br>
+        <h5>FAQs</h5>
+      </div>
+    </div>
+  </div>
+  <a href="../EA/integrantes.html" class="btn-wsp" target="_blank"><img src="../img/contacto.png" class="img-fluid" alt=""></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
