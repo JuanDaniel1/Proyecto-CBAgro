@@ -31,6 +31,12 @@ En esta seccion se visualizaran todos los prototipos y diseños que se realizaro
 
 Prototipo escritorio: https://www.figma.com/file/eHogQtJKUjcOZYZh7Xkx8c/Senagro
 
+![image](https://user-images.githubusercontent.com/110575826/195488823-8fdd02ca-421c-49d9-89c1-68274d0fe067.png)
+
 Prototipo movil: https://www.figma.com/file/AOBUd8qNe2uxSOzGLuxIAH/SenaAgro-Movil?node-id=0%3A1
+
+![image](https://user-images.githubusercontent.com/110575826/195488672-bbe5b8c5-6ecb-4a31-82c2-7297e88e8e25.png)
+
+En estos prototipos se analizaron como base para nuestra idea sobre la pagina web que ibamos a desarrollar
 
 
