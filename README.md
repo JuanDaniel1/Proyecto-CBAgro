@@ -24,3 +24,13 @@ En este repositorio se encontraran todos los archivos (HTML, CSS, Sass y js) par
 :+1: Se agrego el sistema responsive para que esta pagina web se pueda visualizar en distintos tamaños de pantalla, desde movil hasta computador, facilitando el acceso del usuario desde cualquier dispositivo y que visualmente este bien.
 
 :+1: Implementacion de transiciones fade-in para que el usuario al acceder a contenidos especificos de la pagina web, pueda ver esta animacion.
+
+## Prototipados y diseños
+
+En esta seccion se visualizaran todos los prototipos y diseños que se realizaron para la ejecucion del proyecto, tambien tendra el link de las carpetas y los prototipos de escritorio y movil.
+
+Prototipo escritorio: https://www.figma.com/file/eHogQtJKUjcOZYZh7Xkx8c/Senagro
+
+Prototipo movil: https://www.figma.com/file/AOBUd8qNe2uxSOzGLuxIAH/SenaAgro-Movil?node-id=0%3A1
+
+
