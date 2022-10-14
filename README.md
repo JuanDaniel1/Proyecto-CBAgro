@@ -37,6 +37,54 @@ Prototipo movil: https://www.figma.com/file/AOBUd8qNe2uxSOzGLuxIAH/SenaAgro-Movi
 
 ![image](https://user-images.githubusercontent.com/110575826/195488672-bbe5b8c5-6ecb-4a31-82c2-7297e88e8e25.png)
 
-En estos prototipos se analizaron como base para nuestra idea sobre la pagina web que ibamos a desarrollar
+En estos prototipos se analizaron como base para nuestra idea sobre la pagina web que ibamos a desarrollar, sin embargo se realizaron algunos cambios que notamos que eran necesarios para mejorar la pagina web y que podria darle una mejor interfaz y experiencia para el usuario.
+
+## Sketch
+
+![image](https://user-images.githubusercontent.com/110575826/195753700-08af4170-c69d-4698-8354-e18851e2b02b.png)
+
+![image](https://user-images.githubusercontent.com/110575826/195753763-a97abf65-88aa-4c5c-a0fb-277299bcbaff.png)
+
+Por otro lado se realizaron sketch que fueron considerados como la idea inicial de lo que nos habiamos propuesto a realizar, por lo tanto estos planos se realizaron en hojas blancas y a lapiz.
+
+## Kanban
+
+![image](https://user-images.githubusercontent.com/110575826/195754092-e2d4efc7-0366-4feb-ba82-b071eb99e122.png)
+
+![image](https://user-images.githubusercontent.com/110575826/195754048-6ca6fd09-4bc1-4dd6-9cf7-570ad8aad176.png)
+
+Kanban es una metodologia agil que utilizamos para facilitar y administrar el trabajo del equipo, donde se estipularon fechas de entrega, lo que cada integrante estaba encargado de hacer, clasificar todas las actividades que se habian hecho, estaban en progreso y se habian completado.
+
+## Manual de usuario 
+
+En este manual se resume a detalle todas los estilos, colores, fuentes, iconos, entre otros. Que sirvieron para mejorar la estetica de la pagina web y para mejorar el UX y UI en el desarrollo de esta.
+
+### Colores
+
+![image](https://user-images.githubusercontent.com/110575826/195754722-72ad1345-15eb-451c-81f8-daa748279b51.png)
+
+![image](https://user-images.githubusercontent.com/110575826/195754807-dc17d493-5755-466a-9cb3-7d3e112c81b8.png)
+
+### Iconos
+
+![image](https://user-images.githubusercontent.com/110575826/195754882-fd512417-8db5-4a08-9466-f3640604fb28.png)
+
+![image](https://user-images.githubusercontent.com/110575826/195754940-92207ca6-0479-4301-8ee0-4de2f581469f.png)
+
+### Logo
+
+![image](https://user-images.githubusercontent.com/110575826/195755019-34c00980-0c0a-416e-a554-0b24ccc540e5.png)
+
+### Imagenes
+
+![image](https://user-images.githubusercontent.com/110575826/195755086-8ed46955-191e-4074-b0f6-f5815858e648.png)
+
+### Fuentes de texto
+
+![image](https://user-images.githubusercontent.com/110575826/195755131-2eeb1182-344f-45bc-8ba2-a4acca3cfc89.png)
+
+![image](https://user-images.githubusercontent.com/110575826/195755159-22052eb5-847b-44c3-b8e0-6918906e9dbe.png)
+
+
 
 
