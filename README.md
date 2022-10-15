@@ -86,5 +86,10 @@ En este manual se resume a detalle todas los estilos, colores, fuentes, iconos, 
 ![image](https://user-images.githubusercontent.com/110575826/195755159-22052eb5-847b-44c3-b8e0-6918906e9dbe.png)
 
 
+## Nota
+
+En la carpeta del proyecto, usted podra encontrar la carpeta EA que son los algoritmos para la pagina web en español, la carpeta EN para la pagina web en ingles y los archivos css, js y las imagenes utilizadas, gracias por recibir este repositorio.
+
+Att. Juan Daniel Bohorquez Gonzalez
 
 
