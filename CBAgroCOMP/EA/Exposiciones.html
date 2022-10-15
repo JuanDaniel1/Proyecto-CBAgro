@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/CBAgro.css">
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+  <title>Exposiciones</title>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand letra" href="../EA/Principal.html">
+          <img src="../img/logo.jpeg" alt="" width="150" height="80" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link letra" aria-current="page" href="../EA/Principal.html">
+                <h4>Inicio</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="../EA/Secciones.html" role="button" aria-expanded="false">
+                <h4>Secciones</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="../EA/Categorias.html" role="button" aria-expanded="false">
+                <h4>Categorias</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="../EA/Exposiciones.html" role="button" aria-expanded="false">
+                <h4>Exposiciones</h4>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link letra" aria-current="page" href="../EA/Galeria.html">
+                <h4>Galeria</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../EA/Ubicacion.html">
+                <img src="../img/ubicacion.png" alt="" width="30" height="30">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="../EN/Exposiciones.html">
+                <img src="../img/españa.jpg" alt="" width="30" height="30">
+                ES
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><br><br><br><br>
+
+    <!-- CARD 1-->
+    <div class="fade-in">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="card mb-3">
+              <div class="row g-1">
+                <div class="col-md-8">
+                  <img src="../img/reposteria1.png" class="img-fluid rounded-start"
+                    alt="...">
+                </div>
+                <div class="col-md-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Reposteria y Cocteleria</h5>
+                    <h6 class="card-text">La repostería es la elaboración y decoración de postres como pasteles, dulces, cremas, entre otros.
+                    </h6>
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal"
+                      data-bs-target="#Reposteria">
+                      Mas Informacion
+                    </button>
+                  </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal fade" id="Reposteria" tabindex="-1" aria-labelledby="Reposteria" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title Reposteria">Reposteria y Cocteleria</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                              class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                              aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                              aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <img src="../img/reposteria1.png" class="d-block w-100 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="../img/cocteleria1.jpg" class="d-block w-100 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../img/reposteria2.png" class="d-block w-100 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div>
+                        <p class="text">descripcion <br> En repostería se centra especialmente en la pasteleria,
+                          realizando grandes trabajos gastronómicos con unas tartas y repostería en general muy
+                          vistosas, ademas se tiene en cuenta el aprendizaje para una buena presentación y agrado para
+                          el consumidor donde se considera ser elaborado a partir de la pasión de los aprendices. Por
+                          otro lado, la industria de la coctelería se enfoca principalmente en la cervecería donde se
+                          explican todos los procesos de fermentación y demás pasos para lograr un buen resultado en la
+                          coctelería. Por lo tanto los que hacen esta práctica en cocteleria, pueden expandir sus
+                          servicios a varias partes de la región y compartir sus productos.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Aceptar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--CARD 2-->
+          <div class="col-12 col-lg-6">
+            <div class="card mb-3">
+              <div class="row g-1">
+                <div class="col-md-8">
+                  <img src="../img/biotecnologia1.jpeg"
+                    class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Biotecnologia </h5>
+                    <h6 class="card-text">El sector de biotecnología es encargado de ofrecer energía y mecanismos en beneficio del medio ambiente.
+                    </h6>
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal"
+                      data-bs-target="#Biotecnologia">
+                      Mas Informacion
+                    </button>
+                  </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal fade" id="Biotecnologia" tabindex="-1" aria-labelledby="Biotecnologia"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title Biotecnologia">Biotecnologia</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="carouselExampleDark1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="0"
+                              class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="1"
+                              aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="2"
+                              aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                              <img src="../img/biotecnologia1.jpeg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="../img/biotecnologia2.jpeg" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../img/biotecnologia3.png" class="d-block w-75 img" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div>
+                        <p class="text">descripcion <br> En el sector biotecnologico se han usado varios mecanismos y
+                          tecnologias para el sector agropecuario, un ejemplo es el uso de la energia solar, donde se
+                          pueden visualizar varios paneles solares para generar esta energia. Por otro lado se destaca
+                          un riego automatizado donde cualquier persona lo puede programar y es de gran funcion y
+                          utilidad.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Aceptar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="row footer text-center" style="background-color: orange;margin-top: 30px;">
+      <div class="col-4">
+        <h5>Aviso Legal</h5><br>
+        <h5>Politica de Privacidad</h5><br>
+        <h5>Politica Cookies</h5><br>
+        <h5>Politica de Calidad</h5>
+      </div>
+      <div class="col-4">
+        <div class="row">
+          <p class="col-4"></p>
+          <img src="../img/sena.jpg" class="col-4" alt="">
+          <p class="col-4"></p>
+        </div>
+        <div class="row">
+          <a href="https://twitter.com/SENAComunica" style="text-decoration: none; color: black;"
+            class="col-4 drop_social" target="_blank">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/SENA" style="text-decoration: none; color: black;" class="col-4 drop_social"
+            target="_blank">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/senacomunica/" style="text-decoration: none; color: black;"
+            class="col-4 drop_social" target="_blank">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+        </div>
+        <div class="row">
+          <p class="col-12">Copyright © 2022 Todos los derechos reservados ADSO</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <h5>SENagro</h5><br>
+        <h5>Blog</h5><br>
+        <h5>Contactos</h5><br>
+        <h5>FAQs</h5>
+      </div>
+    </div>
+  </div>
+  <a href="../EA/integrantes.html" class="btn-wsp" target="_blank"><img src="../img/contacto.png" class="img-fluid"
+      alt=""></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+*{
+    padding: auto;
+}
+
+.letra{
+    color: orange;
+}
+
+.img{
+    display:block;
+    margin:auto;
+}
+.btn-wsp{
+    position: fixed;
+    width: 80px;
+    height: 75px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #ff9d00;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+
+h5{
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fade-in {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0 ;}
+    100% {opacity:1 ;}
+}
+
+/*---- Card ----- */
+
+
+.card {
+    position: relative;
+    background: #ffffff;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.card .price {
+    position: absolute;
+}
+
+.card:hover > .card-info {
+    display: block;
+    transition: 0.2s all ease;
+}
+
+.card .card-buttons .btn:hover {
+    color: #ffffff;
+}
+
+.card:hover,
+.card-info {
+    box-shadow: 1px 1px 13px 2px rgba(94, 94, 94, 0.5);
+}
+
+.vid {
+    width: 500px;
+    height: 300px;
+}
+.vid2 {
+    width: 600px;
+    height: 435px;
+}
+
+.vid3 {
+    width: 400px;
+    height: 215px;
+}
